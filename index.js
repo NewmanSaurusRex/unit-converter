@@ -10,6 +10,13 @@ const kiloToPound = 2.204;
 
 convertBtn.addEventListener("click", function () {
   let inputValue = inputEl.value;
-  lengthEl.textContent = `${inputValue} m = ${inputValue * meterToFeet} ft`;
-  volumeEl.textContent = `${inputValue} L = ${inputValue * literToGallon} gal`;
+  lengthEl.textContent = `${inputValue} m = ${(
+    inputValue * meterToFeet
+  ).toFixed(3)} ft`;
+  volumeEl.textContent = `${inputValue} L = ${(
+    inputValue * literToGallon
+  ).toFixed(3)} gal`;
+  massEl.textContent = `${inputValue} kg = ${(inputValue * kiloToPound).toFixed(
+    3
+  )} lbs`;
 });
