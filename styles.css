@@ -37,6 +37,7 @@ p {
 #container {
   width: 550px;
   margin: 50px auto;
+  border-radius: 20px;
 }
 
 #convert-value {
@@ -47,15 +48,16 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
+  border-radius: 20px 20px 0px 0px;
 }
 
-#num {
+#input {
   width: 117px;
   border: 2px solid #b295ff;
   padding: 25px 20px;
   font-size: 56px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 20px;
   text-align: center;
   background: none;
   color: white;
@@ -67,6 +69,7 @@ p {
   max-width: 550px;
   margin-top: 0;
   padding: 36px 24px;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .conv {
@@ -77,6 +80,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border-radius: 20px;
 }
 
 #volume {
